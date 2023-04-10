@@ -1,0 +1,12 @@
+CREATE DATABASE DBPRUEBA
+
+use DBPRUEBA
+
+CREATE TABLE USUARIO(
+IdUsuario int primary key identity,
+NombreCompleto varchar(50),
+Correo varchar(50),
+Clave varchar(100)
+)
+
+select * from USUARIO
